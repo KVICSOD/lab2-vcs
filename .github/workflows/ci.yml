@@ -18,10 +18,10 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore
-        run: dotnet restore Lab3.slnx
+        run: dotnet restore Lab3.sln
 
       - name: Build
-        run: dotnet build Lab3.slnx -c Release --no-restore
+        run: dotnet build Lab3.sln -c Release --no-restore
 
       - name: Test
-        run: dotnet test Lab3.slnx -c Release --no-build --verbosity normal
+        run: dotnet test Lab3.sln -c Release --no-build --verbosity normal
