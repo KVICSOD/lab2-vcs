@@ -31,3 +31,8 @@ dotnet build
 dotnet test
 dotnet run --project 3/3.csproj
 ```
+
+## Требования
+
+- .NET SDK 8.0+
+- Git
